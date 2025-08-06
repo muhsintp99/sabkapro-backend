@@ -1,0 +1,1 @@
+// candidateValidation.js
