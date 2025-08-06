@@ -67,6 +67,83 @@ TalentConnect is a complete platform that connects **candidates** and
 
 ------------------------------------------------------------------------
 
+## 🧭 Detailed Project Workflow
+
+### Website / Landing Page Workflow
+
+1. User visits homepage.
+2. Chooses to register as Candidate or Employer.
+3. Fills lead form:
+   - Candidate: Name, Email, WhatsApp, Upload CV
+   - Employer: Name, Email, WhatsApp, Hiring Details
+4. Form submitted.
+5. Auto-email & WhatsApp with login credentials sent.
+6. Redirected:
+   - Candidate → Student PWA App
+   - Employer → Employer PWA App
+7. Payment Gateway presented (for Pro users).
+
+### CRM Admin Panel Workflow
+
+1. Admin logs in.
+2. Dashboard Overview:
+   - Total Leads, Candidates, Employers, Revenue, etc.
+3. Lead Management:
+   - View leads (New, Follow-up, Converted)
+   - Assign to staff, track follow-up.
+4. Proposal Management:
+   - Generate/send proposals, track payment, convert to Pro.
+5. Candidate Management:
+   - View candidates (Free/Pro), access CV/video resumes, assign staff.
+6. Employer Management:
+   - View employers, job postings, assign staff, view payment history.
+7. Training Module:
+   - Upload videos (Vimeo API), control access (Pro only).
+8. Payment Module:
+   - Generate invoices, track payments.
+9. Roles & Permissions:
+   - Admin (Full access), Staff (Limited access).
+10. Analytics & Reporting:
+    - Export reports, track placements, revenues, progress.
+
+### Student PWA App Workflow
+
+1. OTP Login (Email/WhatsApp).
+2. Dashboard Access based on plan:
+   - Free: Limited features
+   - Pro: Full access
+3. Features:
+   - Profile setup, CV/video resume upload
+   - Video learning (track progress)
+   - Job listings, apply, status updates
+   - Interview scheduler, notifications
+   - Subscription management (upgrade, payments)
+
+### Employer PWA App Workflow
+
+1. OTP Login + Admin Verification.
+2. Dashboard Access based on plan:
+   - Free: Limited access
+   - Premium: Full access (post verification)
+3. Features:
+   - Job posting (create/edit/delete)
+   - Browse candidates, download CVs/videos (Pro only)
+   - ATS: Resume parsing, filter candidates
+   - Communication: Email/SMS automation
+   - Interview scheduling, team collaboration
+
+### End-to-End Workflow Example
+
+- **Candidate**:
+  Registers → Gets credentials → Logs in → Uploads CV/video → Applies for jobs → Receives interview alerts → Upgrades to Pro → Access full content → Tracks job status.
+
+- **Employer**:
+  Registers → Admin verifies → Logs in → Posts job → Receives applications → Filters candidates → Schedules interview → Rates & hires → Updates status.
+
+---
+
+------------------------------------------------------------------------
+
 ## 🗂 Backend Folder Structure
 
     backend/
