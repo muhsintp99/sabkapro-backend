@@ -1,1 +1,0 @@
-// sendWhatsApp.js

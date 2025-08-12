@@ -1,7 +1,5 @@
-// logger.js
-
 const { createLogger, transports, format } = require('winston');
-const moment = require('moment');
+const moment = require('moment'); // install: npm install moment
 
 const logger = createLogger({
   level: 'info',
