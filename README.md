@@ -1,3 +1,12 @@
+
+
+<img width="500" height="142" alt="1-removebg-preview" src="https://github.com/user-attachments/assets/803ca524-68d6-4d1f-8da5-45e9a4a0d9e3" />
+
+<img width="1542" height="1542" alt="Sabka-favicon" src="https://github.com/user-attachments/assets/d48c725f-2ff5-42e3-b2a6-bb768e8746a7" />
+
+<img width="500" height="144" alt="3-removebg-preview" src="https://github.com/user-attachments/assets/839b894e-7140-44e8-9ecd-981668214578" />
+
+
 # 📦 Sabka Pro Backend
 
 A fully functional **MERN stack backend** for a job consultancy, training, and CRM platform.  
